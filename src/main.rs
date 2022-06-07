@@ -1,3 +1,5 @@
+mod sonar_sweep;
+
 fn main() {
-    println!("Hello, world!");
+    sonar_sweep::sonar_sweep();
 }
