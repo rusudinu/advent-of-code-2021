@@ -16,7 +16,7 @@ fn solve(input: Vec<i64>) -> i64 {
     let mut count: i64 = 0;
     let mut count_horizontal: i64 = 0;
     for i in 0..input.len() {
-        if input[i] > 10 {
+        if input[i] >= 10 {
             count_horizontal += input[i] / 10;
         } else {
             count += input[i];
